@@ -52,4 +52,10 @@ public class Disco {
         
         return tActivas > 0;
     }         
+
+    public int getAnio() {
+        return anio;
+    }
+    
+    
 }
