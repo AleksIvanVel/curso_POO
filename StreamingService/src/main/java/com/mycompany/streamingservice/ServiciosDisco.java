@@ -1,5 +1,4 @@
-
-package com.mycompany.bibliotecadiscos;
+package com.mycompany.streamingservice;
 /**
  * Disco digital para su uso por una companhia de
  * "streaming". Se usa como ejemplo en algunos 
@@ -75,7 +74,7 @@ public interface ServiciosDisco {
      * 
      * @return un nuevo disco identico al que se le pide.
      */
-    public Disco copiaDisco();
+    public ServiciosDisco copiaDisco();
     
     /**
      * Otorga una transmision, contestando con la fecha y hora en que 
@@ -111,3 +110,4 @@ public interface ServiciosDisco {
      */
     public String toString ();
 }
+
