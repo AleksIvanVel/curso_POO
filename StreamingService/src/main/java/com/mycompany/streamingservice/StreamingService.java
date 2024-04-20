@@ -6,9 +6,11 @@ public class StreamingService {
         String saludo = "Bienvenido al servicio de streaming";
         System.out.println(saludo);
         
-        String sMuchas = "Estas son varias cadenas"
-                + " pegadas una junto a otra. \n \t A "
-                + "ver como se imprimen";
-        System.out.println(sMuchas);
+//        String sMuchas = "Estas son varias cadenas"
+//                + " pegadas una junto a otra. \n \t A "
+//                + "ver como se imprimen";
+//        System.out.println(sMuchas);
+
+          Disco elMio = new Disco();
     }
 }
